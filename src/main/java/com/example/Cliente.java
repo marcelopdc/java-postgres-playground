@@ -79,5 +79,10 @@ public class Cliente {
     public void setEspecial(boolean especial) {
         this.especial = especial;
     }
+    
+    public String toString() {
+
+        return " Cpf: " + getCpf() + " Nome: " + getNome() + " Renda: " + getRenda() + " Ano Nascimento: " + getAnoNascimento();
+    }
 
 }
